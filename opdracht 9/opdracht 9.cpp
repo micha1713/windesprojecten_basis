@@ -1,17 +1,16 @@
-// opdracht 8 Retry.cpp : This file contains the 'main' function. Program execution begins and ends there.
+// opdracht 9.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
 
 #include <stdio.h>
 
-float A, B;
+float snelheid_kmph, snelheid_mps;
 
 int main()
 {
-    printf_s("voer een 21 procent exclusief bedrag in om het volledige bedrag inclusief BTW te berekenen: ");
-    scanf_s("%f", &A);
-    B = A * 1.21;
-    printf_s(" Het bedrag is %.2f euro met BTW", B);
+	printf_s("voer een snelheid in kmph in om omte rekenen naar meter per seconde: ");
+	scanf_s("%f", &snelheid_kmph);
+	snelheid_mps = snelheid_kmph / 3.6;
+	printf_s(" de snelheid is %.2f meter per seconde", snelheid_mps);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

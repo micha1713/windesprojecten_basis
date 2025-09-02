@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="opdracht 8 Retry.cpp">
+    <ClCompile Include="opdracht 9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
