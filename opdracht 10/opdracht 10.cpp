@@ -1,11 +1,16 @@
 // opdracht 10.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include <stdio.h>
+
+float weerstandswaarde, stroomsterkte, spanning;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    printf_s("geef de weerstandswaarde en de spanning om de stroomsterkte te berekenen");
+        scanf_s("%f %f", &weerstandswaarde, &spanning);
+    stroomsterkte = spanning / weerstandswaarde;
+    printf_s(" de stroomsterkte is: %.2f", stroomsterkte);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
